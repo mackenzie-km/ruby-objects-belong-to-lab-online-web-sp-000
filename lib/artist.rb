@@ -1,4 +1,5 @@
 class Artist 
-attr_accessible :name 
+attr_reader :name 
 def initialize(name)
+end
 end 
